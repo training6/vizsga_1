@@ -8,11 +8,11 @@ import { v4 as uuidv4 } from 'uuid';
 
 const useStyles = makeStyles({
   menuH: {
-
+float: 'right'
   },
   iconB: {
-    marginRight: "30px",
-    marginTop: "30px",
+    marginRight: "10px",
+    marginTop: "10px",
     float: "right",
     width: "90px",
     height: "90px",

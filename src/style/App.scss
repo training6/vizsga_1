@@ -6,9 +6,107 @@
 
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: $backgroundColor;
   height: 100vh;
   width: 100vw;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+
+  
+  h1 {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 44px;
+    letter-spacing: 14px;
+    color: white;
+  }
+  }
+  .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px;
+    
+    .section1 {
+      width: 300px;
+      height: 400px;
+      margin-right: 40px;
+      margin-left: 140px;
+      background: black;
+
+      .text1 {
+        width: 300px;
+        height: 410px;
+      
+      h2 {
+        margin: 20px;
+        color: yellow;
+        font-size: 16px;
+        font-weight: 500;
+      }
+        p {
+          color: white;
+          margin: 25px;
+          font-size: 14px;
+        }
+      }
+      p {
+        color: yellow
+      }
+      
+    }
+
+    .section2 {
+      border: 1px solid white;
+      background-color: white;
+      width: 300px;
+      height: 400px;
+
+      .text2 {
+        width: 300px;
+        height: 410px;
+      
+      h2 {
+        margin: 20px;
+        color: yellow;
+        font-size: 16px;
+        font-weight: 500;
+      }
+        p {
+          color: black;
+          margin: 25px;
+          font-size: 14px;
+        }
+      }
+      p {
+        color: yellow
+      }
+
+    }
+    .section3 {
+      border: 1px solid black;
+      background-color: black;
+      color: yellow;
+      width: 300px;
+      height: 400px;
+      margin-left: 40px;
+
+      .text3 {
+        width: 300px;
+        height: 410px;
+
+        p {
+          margin: 25px;
+          font-size: 14px;
+        }
+    }}
+
+  }
 
 }
