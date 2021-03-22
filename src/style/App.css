@@ -156,11 +156,14 @@ body,
 }
 
 @media (max-width: 620px) {
-  .title {
-    -ms-flex-negative: inherit;
-        flex-shrink: inherit;
+  .App {
+    height: 100%;
+    width: 100%;
   }
-  .section {
+  .App .title h1 {
+    font-size: 14px;
+  }
+  .App .section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -168,6 +171,9 @@ body,
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=App.css.map */

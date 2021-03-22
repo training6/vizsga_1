@@ -133,13 +133,18 @@
 
 @media (max-width: 620px) {
 
-  .title {
-    flex-shrink: inherit;
-  }
+  .App {
+    height: 100%;
+    width: 100%;
+  
+    .title h1 {
+      font-size: 14px;
+    }
 
   .section {
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
+  }
 }
 }

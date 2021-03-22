@@ -31,7 +31,6 @@ float: 'right'
     '@media (max-width: 613px)': {
       width: '80px',
       height: '80px',
-      border: " 1px solid #efd592",
     },
     '@media (max-width: 430px)': {
       width: '70px',
