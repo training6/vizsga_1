@@ -3,22 +3,19 @@ import { makeStyles } from '@material-ui/core/styles';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import { v4 as uuidv4 } from 'uuid';
 
 const useStyles = makeStyles({
   menuH: {
-float: 'right'
   },
   iconB: {
-    marginRight: "20px",
-    marginTop: "20px",
-    float: "right",
+    margin: "70px",
     width: "90px",
     height: "90px",
-    backgroundColor: "#242d38",
+    backgroundColor: "black",
     color: '#efd592',
-    stroke: '#efd592',
+    border: " 1px solid #efd592",
     '&:hover': {
       color: "#242d38",
       stroke: "#242d38",
@@ -58,7 +55,7 @@ const options = [
   'Stg'
 ]
 
-function MenuH() {
+function PlayButton() {
   const classes = useStyles();
 
   const [anchorEl, setAnchorEl] = useState(null);
@@ -80,7 +77,7 @@ function MenuH() {
         aria-haspopup="true"
         onClick={handleClick}>
 
-        <MenuIcon className={classes.icon} />
+        <PlayArrowIcon className={classes.icon} />
       </IconButton>
 
       <Menu
@@ -108,4 +105,4 @@ function MenuH() {
   );
 }
 
-export default MenuH;
+export default PlayButton;

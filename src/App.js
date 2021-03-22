@@ -1,5 +1,6 @@
 import '../src/style/App.css';
-import HamBurgerMenu from '../src/components/HamBurgerMenu'
+import HamBurgerMenu from '../src/components/HamBurgerMenu';
+import PlayButton from '../src/components/PlayButton'
 
 function App() {
   return (
@@ -36,8 +37,8 @@ function App() {
       </div>
       <div className='section3'>
       <div className="text3">
-
-        <p>Lecture at NYU</p>
+      <PlayButton />
+        <h2>Lecture at NYU</h2>
         </div>
         <p>WATCH</p>
       </div>
