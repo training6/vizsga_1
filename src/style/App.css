@@ -155,7 +155,7 @@ body,
   font-size: 12px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 900px) {
   .App {
     height: 100%;
     width: 100%;
@@ -171,6 +171,18 @@ body,
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .App .section .section1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .App .section .section2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .App .section .section3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=App.css.map */
